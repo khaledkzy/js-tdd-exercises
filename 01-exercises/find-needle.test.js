@@ -1,4 +1,11 @@
 function findNeedle(haystackArray) {
+     var position =-1;
+    for (var i = 0; i < haystackArray.length; i++) {
+        if (haystackArray[i] === 'needle') {
+            position= i;
+        }
+    }
+return position
     // ToDo: Implement this function to make all the tests below pass
     // DO NOT Change the tests (you can add more tests though)
 }

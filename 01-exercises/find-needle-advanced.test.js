@@ -1,4 +1,11 @@
 function findMultipleNeedles(haystackArray) {
+    var positions = [];
+    for (var i = 0; i < haystackArray.length; i++) {
+        if (haystackArray[i] === 'needle') {
+            positions.push(i);
+        }
+    }
+    return positions
     // ToDo: Implement this function to make all the tests below pass
     // DO NOT Change the tests (you can add more tests though)
 }
